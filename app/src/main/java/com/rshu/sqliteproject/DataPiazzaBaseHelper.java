@@ -39,6 +39,15 @@ public class DataPiazzaBaseHelper extends SQLiteOpenHelper {
                 +Utiles.PIZZA_1_DESCRIPTION+"\" , \""
                 +Utiles.PIZZA_1_RECIPE+"\" );"
         );
+        db.execSQL("INSERT INTO "+TABLE_PIZZA+" ( "
+                + СOLUMN_TITLE+" , "
+                +СOLUMN_DESCRIPTION+" , "
+                +СOLUMN_RECIPE +" )"
+                + " VALUES ( \""
+                +Utiles.PIZZA_2_TITLE+ "\" , \""
+                +Utiles.PIZZA_2_DESCRIPTION+"\" , \""
+                +Utiles.PIZZA_2_RECIPE+"\" );"
+        );
         Log.d("result","Create DB");
     }
 
