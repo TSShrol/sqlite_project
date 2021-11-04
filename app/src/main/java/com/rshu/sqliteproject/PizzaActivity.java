@@ -50,9 +50,9 @@ public class PizzaActivity extends AppCompatActivity {
             titlePizza.setText(pizzaCursor.getString(1));
             descriptionPizza.setText(pizzaCursor.getString(2));
             recipePizza.setText(pizzaCursor.getString(3));
-            deleteBtn.setVisibility(View.VISIBLE);
+//            deleteBtn.setVisibility(View.VISIBLE);
         }else{
-            deleteBtn.setVisibility(View.INVISIBLE); //View.GONE
+            deleteBtn.setVisibility(View.GONE); //View.INVISIBLE
         }
 
 
